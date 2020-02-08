@@ -73,10 +73,12 @@ h1, h2, h3, h4, h5,
   background: #000; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em 0;
+}
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 5em 0 0; }
+  }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -791,18 +793,32 @@ h1, h2, h3, h4, h5,
 
 .section-title {
   color: #000;
-  margin-bottom: 50px; }
-  .section-title h2 {
+  margin-bottom: 30px;
+}
+.writer-section-title{
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.writer-section-title h2, .section-title h2 {
     font-size: 20px;
     font-weight: 400;
-    border-bottom: 1px solid #222;
     position: relative;
-    display: inline-block; }
-    .section-title h2:before {
+    display: inline-block;
+  }
+.writer-section-title h2::before{
+   position: absolute;
+      content: "";
+      height: 1px;
+      background: #777;
+}
+
+.section-title h2:before {
       position: absolute;
       content: "";
       height: 1px;
-      background: #777; }
+      background: #777;
+    }
 
 .section-subtitle {
   font-weight: 300;
@@ -1105,26 +1121,26 @@ h1, h2, h3, h4, h5,
 .date-read {
   color: #b4b4b4; }
 
-.post-entry-1, .post-entry-2 {
+.post-entry {
   font-size: .9rem;
   margin-bottom: 30px; }
-  .post-entry-1 img, .post-entry-2 img {
+.post-entry img {
     margin-bottom: 30px; }
-  .post-entry-1 h2, .post-entry-2 h2 {
+.post-entry h2 {
     font-size: 20px; }
-    .post-entry-1 h2 a, .post-entry-2 h2 a {
+.post-entry h2 a {
       color: #000; }
 
-.post-entry-2 {
+.post-entry {
   font-size: .9rem; }
-  .post-entry-2 .thumbnail {
+  .post-entry .thumbnail {
     background-size: cover;
     background-position: center;
     width: 30%; }
-  .post-entry-2 .contents {
+  .post-entry .contents {
     width: 70%;
     padding: 10px 20px; }
-    .post-entry-2 .contents h2 {
+    .post-entry .contents h2 {
       font-size: 15px; }
 
 .trend-entry {
@@ -1198,6 +1214,7 @@ h1, h2, h3, h4, h5,
     .custom-pagination li.active a {
       color: #000; }
 
+/* 
 .form-control {
   margin-right: 10px;
   height: 50px;
@@ -1211,73 +1228,12 @@ h1, h2, h3, h4, h5,
   .form-control:active, .form-control:focus {
     border-bottom: 1px solid #ccc; }
 
-.btn {
-  border-radius: 30px;
-  background: #000;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-color: #000;
-  color: #fff; }
-
-.subscribe form .form-control {
-  margin-right: 10px;
-  height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 30px;
-  border: none;
-  background: #fff;
-  border-bottom: 1px solid transparent;
-  border-bottom: 1px solid #ccc; }
-  .subscribe form .form-control:active, .subscribe form .form-control:focus {
-    border-bottom: 1px solid #ccc; }
-
-.subscribe form .btn {
-  border-radius: 30px;
-  background: #000;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-color: #000; }
-  .subscribe form .btn:hover {
-    background: #8bc34a;
-    border-color: #8bc34a; }
-
-.subscribe form h2 {
-  font-size: 1.2rem;
-  color: #000; }
-
-.subscribe form p {
-  font-size: .9rem; }
-
-.search-form .form-control {
-  margin-right: 10px;
-  height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 30px;
-  border: none;
-  background: #fff;
-  border-bottom: 1px solid transparent;
-  border-bottom: 1px solid #ccc; }
-  .search-form .form-control:active, .search-form .form-control:focus {
-    border-bottom: 1px solid #ccc; }
-
-.search-form .btn {
-  border-radius: 30px;
-  background: #000;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-color: #000; }
-  .search-form .btn:hover {
-    background: #8bc34a;
-    border-color: #8bc34a; }
-
 .search-form h2 {
   font-size: 1.2rem;
   color: #000; }
 
 .search-form p {
-  font-size: .9rem; }
+  font-size: .9rem; } */
 
 .footer {
   font-size: .85rem;

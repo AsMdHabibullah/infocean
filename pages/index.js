@@ -1,7 +1,7 @@
 import React from 'react';
-import '../static/css/style.css';
-import '../static/style.sass';
-import Layout from '../components';
+import '../public/style.css';
+import '../public/style.sass';
+import Layout from '../base-layout/base-layout';
 import Home from '../components/home';
 
 
