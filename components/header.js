@@ -30,7 +30,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item active">
                                 <Link href="/">
-                                    <button type="button" class="btn btn-outline-info">Log Out</button>
+                                    <button type="button" className="btn btn-outline-info">Log Out</button>
                                 </Link>
                             </li>
                         </ul>
@@ -41,10 +41,10 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
                     {/* <a className="navbar-brand f-left" href="#">Country</a> */}
-                    <div class="input-group-overlay">
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-                            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    <div className="input-group-overlay">
+                        <form className="form-inline">
+                            <input className="form-control mr-sm-2" type="text" placeholder="Search" />
+                            <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                         </form>
                     </div>
                 </div>

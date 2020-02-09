@@ -24,7 +24,7 @@ const GetStarteHeader = () => {
                         </li>
                         <li className="nav-item active">
                             <Link href="/">
-                                <button type="button" class="btn btn-outline-info">Get Started</button>
+                                <button type="button" className="btn btn-outline-info">Get Started</button>
                             </Link>
                         </li>
                     </ul>

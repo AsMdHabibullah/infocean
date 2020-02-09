@@ -14,7 +14,7 @@ const ExtraFooter = () => {
             <a className="btn-scroll-top show" href="#top" data-scroll="">
                 {/* <span className="btn-scroll-top-tooltip text-muted font-size-sm mr-2">
                 </span> */}
-                <i class="fas fa-arrow-up"></i>
+                <i className="fas fa-arrow-up"></i>
             </a>
         </footer>
     );
