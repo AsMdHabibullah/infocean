@@ -20,17 +20,17 @@ const Header = () => {
                             </li>
                             <li className="nav-item active">
                                 <Link href="/">
-                                    <a className="nav-link">Features</a>
+                                    <a className="nav-link">Support</a>
                                 </Link>
                             </li>
                             <li className="nav-item active">
                                 <Link href="/">
-                                    <a className="nav-link">Post</a>
+                                    <a className="nav-link">Guides</a>
                                 </Link>
                             </li>
                             <li className="nav-item active">
                                 <Link href="/">
-                                    <button type="button" class="btn btn-outline-info">Join Free</button>
+                                    <button type="button" class="btn btn-outline-info">Log Out</button>
                                 </Link>
                             </li>
                         </ul>

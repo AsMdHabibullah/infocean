@@ -1,0 +1,11 @@
+.form-control {
+  font-size: 14px;
+  transition: 0.5s all;
+  &:focus {
+    border: none;
+    transition: 0.5s all;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    border: none;
+  }
+}

@@ -11,7 +11,7 @@ const MainArticles = () => {
         <div className="row">
             <div className="col-lg-8">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-xl-12 col-md-12 col-sm-12">
                         <div className="section-title">
                             <h2>Articles</h2>
                         </div>
@@ -21,27 +21,27 @@ const MainArticles = () => {
             </div>
             <div className="col-lg-4">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-xl-12 col-md-12 col-sm-12">
                         <div className="section-title">
                             <h2>Recent Published</h2>
                         </div>
                         <RecentPublish />
                     </div>
 
-                    <div className="col-md-12">
+                    <div className="col-xl-12 col-md-12 col-sm-12">
                         <div className="section-title">
                             <h2>Popular Articles</h2>
                         </div>
                         <PopularArticle />
                     </div>
 
-                    <div className="col-md-12">
+                    <div className="col-xl-12 col-md-12 col-sm-12">
                         <div className="writer-section-title">
                             <h2>Best Writers</h2>
                         </div>
                         <BestWriter />
                     </div>
-                    <div className="col-md-12">
+                    <div className="col-xl-12 col-md-12 col-sm-12">
                         <ExtraFooter />
                     </div>
                 </div>
