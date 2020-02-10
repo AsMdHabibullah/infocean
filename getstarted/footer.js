@@ -7,7 +7,7 @@ const Footer = () => {
             <section className="container">
                 <div className="row text-center">
                     <div className="col-12 col-md-6 col-lg-3 grid-margin">
-                        <img src={logo} alt="" className="pb-2 ext-logo" />
+                        <img src={logo} alt="" className="logo" />
                         <div className="pt-2">
                             <p className="text-muted m-0">support@infocean.org</p>
                             <p className="text-muted m-0">+86 1560 8807860</p>
