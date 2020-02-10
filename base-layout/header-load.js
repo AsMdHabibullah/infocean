@@ -3,14 +3,12 @@ import GetStarteHeader from '../getstarted/get-starte-header';
 import Header from '../components/header';
 
 
-const HeaderLoad = props => {
-    const header_name = props.type.name
+const HeaderLoad = header => {
+    const header_name = header.type.name
     if (header_name === 'Home') {
         return <Header />
-    } else if (header_name === 'GetStarted') {
-        return <GetStarteHeader />
     }
-    return ''
+    return <GetStarteHeader />
 };
 
 

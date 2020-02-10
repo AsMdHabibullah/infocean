@@ -7,6 +7,7 @@ import favicon from '../public/static/images/favicon.png'
 
 
 const Layout = props => {
+    const header = props.children;
     return (
         < Fragment >
             <Head>
@@ -20,7 +21,7 @@ const Layout = props => {
 
             </Head>
 
-            {HeaderLoad(props.children)}
+            {HeaderLoad(header)}
             {props.children}
 
         </Fragment >
