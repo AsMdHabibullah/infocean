@@ -10,12 +10,11 @@ const Footer = () => {
                         <img src={logo} alt="" className="logo" />
                         <div className="pt-2">
                             <p className="text-muted m-0">support@infocean.org</p>
-                            <p className="text-muted m-0">+86 1560 8807860</p>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 grid-margin">
                         <h5 className="pb-2">Get in Touch</h5>
-                        <p className="text-muted">Don’t miss our tech related free advice!</p>
+                        <p className="text-muted">Don't miss our tech-related free advice!</p>
                         <form>
                             <input type="text" className="form-control" id="Email" placeholder="Email id" />
                         </form>
@@ -45,7 +44,7 @@ const Footer = () => {
                     <i className="fas fa-arrow-up"></i>
                 </a>
                 <footer className="border-top mt-3">
-                    <p className="text-center text-muted pt-4">2020 &copy; All rights reserved<a className="px-1" href="https://asmdhabibullah.com" target="_blank"> - As Md Habibullah.</a></p>
+                    <p className="text-center text-muted pt-4">{new Date().getUTCFullYear()} &copy; All rights reserved<a className="px-1" href="https://asmdhabibullah.com" target="_blank"> - As Md Habibullah.</a></p>
                 </footer>
             </section>
         </Fragment>

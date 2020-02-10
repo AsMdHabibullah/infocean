@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import joyfull from '../public/static/images/joyfull.jpg'
 
 
 const HomePage = () => {
@@ -61,57 +62,53 @@ const HomePage = () => {
                     <section className="features-overview" id="features-section" >
                         <div className="content-header">
                             <h2>How does it works</h2>
-                            <h6 className="section-subtitle text-muted">From of the top choose a catagury and write your expertice.</h6>
+                            <h6 className="section-subtitle text-muted">From top of the category, choose your category and write your expertise.</h6>
                         </div>
                         <div className="d-md-flex justify-content-between">
                             <div className="grid-margin d-flex justify-content-start">
                                 <div className="features-width">
-                                    <h5 className="py-3">Aleart.!</h5>
+                                    <h5 className="py-3">Aleart!</h5>
                                     <p className="text-muted">You can't write adult related contend. If you write like this then your account wil be band automiticaly.</p>
                                 </div>
                             </div>
                             <div className="grid-margin d-flex justify-content-center">
                                 <div className="features-width">
-                                    <img src="images/Group7.svg" alt="" className="img-icons" />
-                                    <h5 className="py-3">SEO and<br />Backlinks</h5>
-                                    <p className="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                                    <a href="#"><p className="readmore-link">Readmore</p></a>
+                                    <h5 className="py-3">Career!</h5>
+                                    <p className="text-muted">This site will show you as an article writer and your chosen category related skills expert and you can share your profile link with others.</p>
                                 </div>
                             </div>
                             <div className="grid-margin d-flex justify-content-end">
                                 <div className="features-width">
-                                    <img src="images/Group5.svg" alt="" className="img-icons" />
-                                    <h5 className="py-3">Content<br />Marketing</h5>
-                                    <p className="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                                    <a href="#"><p className="readmore-link">Readmore</p></a>
+                                    <h5 className="py-3">API!</h5>
+                                    <p className="text-muted">Software developer can create his own new blog with his article API.</p>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section className="digital-marketing-service" id="digital-marketing-section">
-                        <div className="row align-items-center">
+                        <div className="row align-items-center m-5">
                             <div className="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
-                                <h3 className="m-0">We Offer a Full Range<br />of Digital Marketing Services!</h3>
+                                <h3 className="m-0">No ads. No problems!</h3>
+                                <p>Your privacy stays yours. We don’t sell your data or target you with others, Ever.</p>
                                 <div className="col-lg-7 col-xl-6 p-0">
-                                    <p className="py-4 m-0 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
-                                    <p className="font-weight-medium text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer</p>
+                                    <p className="py-4 m-0 text-muted">Our thinking is different and to you our expectation of course different.</p>
+                                    <p className="font-weight-medium text-muted">Try your best and will be you gain your apex.</p>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
-                                <img src="images/Group1.png" alt="" className="img-fluid" />
+                                <img src={joyfull} alt="" className="img-fluid" />
                             </div>
                         </div>
-                        <div className="row align-items-center">
+                        <div className="row align-items-center m-3">
                             <div className="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
                                 <img src="images/Group2.png" alt="" className="img-fluid" />
                             </div>
                             <div className="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
-                                <h3 className="m-0">Leading Digital Agency<br />for  Business Solution.</h3>
+                                <h3 className="m-0">Curious readers and growing.</h3>
                                 <div className="col-lg-9 col-xl-8 p-0">
-                                    <p className="py-4 m-0 text-muted">Power-packed with impressive features and well-optimized, this template is designed to provide the best performance in all circumstances.</p>
-                                    <p className="pb-2 font-weight-medium text-muted">Its smart features make it a powerful stand-alone website building tool.</p>
+                                    <p className="py-4 m-0 text-muted">Stay and find your curiosity about what you want to do. When you find, no one can stop you.</p>
+                                    <p className="pb-2 font-weight-medium text-muted">Smart is like this!</p>
                                 </div>
-                                <button className="btn btn-info">Readmore</button>
                             </div>
                         </div>
                     </section>
