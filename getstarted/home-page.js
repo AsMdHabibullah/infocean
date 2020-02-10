@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import joyfull from '../public/static/images/joyfull.jpg'
+import curious from '../public/static/images/curious.jpg';
 
 
 const HomePage = () => {
@@ -101,7 +102,7 @@ const HomePage = () => {
                         </div>
                         <div className="row align-items-center m-3">
                             <div className="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
-                                <img src="images/Group2.png" alt="" className="img-fluid" />
+                                <img src={curious} alt="" className="img-fluid" />
                             </div>
                             <div className="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
                                 <h3 className="m-0">Curious readers and growing.</h3>
