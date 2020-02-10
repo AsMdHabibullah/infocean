@@ -4,12 +4,13 @@ import Header from '../components/header';
 
 
 const HeaderLoad = props => {
-    const pet = props.type.name
-    if (pet === 'GetStarted') {
+    const header_name = props.type.name
+    if (header_name === 'Home') {
+        return <Header />
+    } else if (header_name === 'GetStarted') {
         return <GetStarteHeader />
     }
-    return <Header />
-
+    return ''
 };
 
 
