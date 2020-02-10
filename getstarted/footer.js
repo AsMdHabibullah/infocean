@@ -44,7 +44,7 @@ const Footer = () => {
                 <a className="btn-scroll-top show" href="#top" data-scroll="">
                     <i className="fas fa-arrow-up"></i>
                 </a>
-                <footer className="border-top mt-5">
+                <footer className="border-top mt-3">
                     <p className="text-center text-muted pt-4">2020 &copy; All rights reserved<a className="px-1" href="https://asmdhabibullah.com" target="_blank"> - As Md Habibullah.</a></p>
                 </footer>
             </section>
