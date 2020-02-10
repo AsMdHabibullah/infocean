@@ -101,10 +101,10 @@ const HomePage = () => {
                             </div>
                         </div>
                         <div className="row align-items-center m-3">
-                            <div className="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
+                            <div className="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-right">
                                 <img src={curious} alt="" className="img-fluid" />
                             </div>
-                            <div className="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
+                            <div className="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-left">
                                 <h3 className="m-0">Curious readers and growing.</h3>
                                 <div className="col-lg-9 col-xl-8 p-0">
                                     <p className="py-4 m-0 text-muted">Stay and find your curiosity about what you want to do. When you find, no one can stop you.</p>
